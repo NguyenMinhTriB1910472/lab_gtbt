@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../src/views/css/style.css">
+    <link rel="stylesheet" href="./views/css/style.css">
 </head>
 <body>
     <div class="main">
@@ -15,7 +15,7 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a herf="#">HOME</a></li>
+                    <li><a herf="http://localhost:3000/">HOME</a></li>
                     <li><a herf="#">ABOUT</a></li>
                     <li><a herf="#">SERVICE</a></li>
                     <li><a herf="#">DESIGN</a></li>
@@ -28,27 +28,38 @@
             </div>
         </div>
         <div class="content">
-            <h1>Web design & <br><span>Development</span><br>Course</h1>
-            <p class="par">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button class="cn"><a href="#">Join Us</a></button>
-            
-            <div class="form">
-                <h2>Login Here</h2>
-                <input type="email" name="email" placeholder="Enter Email Here">
-                <input type="password" name="password" placeholder="Enter Password Here">
-                <button class="btnn"><a href="#">Login</a></button>
-                <p class="link">Don't have an account?
-                <a href="#">Sign up </a>here</p>
-                <p class="liw">Log in here</p>
-                <div class="icon">
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-github"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            <h1>Nguyễn Minh Trí <br><span>Nhi Lê team</span><br>WEB TEAM</h1>
+            <p class="par">Sinh ngày 22-8-2001
+                <br> Học tại Cần Thơ University , khoa CNTT-TT, ngành CNTT, năm cuối
+                <br> Thường trú tại Cần Thơ , quê quán An Giang
+                <br></p>
+                <p class="par">Ngôn Ngữ : Java (Java Spring Boot), python, flutter...
+                    <br> Chứng chỉ : chứng chỉ web và mobile tại Đh Funix
+                    
+                    <br> Kĩ Năng : tiếng Anh (Ielts 5.5), thuyết trình , hát hay, coding ,làm việc, nhóm kĩ năng mềm,...
+                    <br> Học tại Cần Thơ University , khoa CNTT-TT, ngành CNTT, năm cuối
+                    <br></p>
+                
+            <form action="/insert" method="post">
+                <div class="form">
+                    <h2>Contact Here</h2>
+                    <input type="text" name="name" placeholder="Enter name Here">
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="tel" name="tel" placeholder="Enter Phone Here">
+                    <input type="text" id="contact" name="Contact" placeholder="Enter Contact Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+                    <p class="link">Don't have an account?
+                    <a href="#">Sign up </a>here</p>
+                    <p class="liw">Log in here</p>
+                    <div class="icon">
+                        <a href="http://localhost:3000/facbook"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="http://localhost:3000/instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="http://localhost:3000/github"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="http://localhost:3000/skype"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
                 </div>
-            </div>
+            </form>
+            
             
         </div>
     </div>
