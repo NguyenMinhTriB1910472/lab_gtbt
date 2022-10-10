@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path =require("path");
-var mysql = require('mysql');
+const mysql = require('mysql');
 //import { SOME_OBJECT } from './models';
 // const { dirname } = require("path");
 var db = mysql.createPool({
